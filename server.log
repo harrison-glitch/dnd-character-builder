@@ -1,0 +1,726 @@
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:8001
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/class-features/Fighter/5 - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetClassFeatures (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClassFeatures", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]] GetClassFeatures(System.String, Int32) on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetClassFeatures (CharacterBuilder) in 20.9033ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetClassFeatures (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/class-features/Fighter/5 - 200 - application/json;+charset=utf-8 46.5723ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:8001/api/character - application/json 317
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.CreateCharacter (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "CreateCharacter", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CharacterBuilder.Models.Character] CreateCharacter(CharacterBuilder.Models.Character) on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'CharacterBuilder.Models.Character'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.CreateCharacter (CharacterBuilder) in 30.4181ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.CreateCharacter (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:8001/api/character - 200 - application/json;+charset=utf-8 32.3836ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:8001/api/character - application/json 317
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.CreateCharacter (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "CreateCharacter", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CharacterBuilder.Models.Character] CreateCharacter(CharacterBuilder.Models.Character) on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'CharacterBuilder.Models.Character'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.CreateCharacter (CharacterBuilder) in 1.1149ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.CreateCharacter (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:8001/api/character - 200 - application/json;+charset=utf-8 2.1204ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/class-features/Wizard/5 - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetClassFeatures (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClassFeatures", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]] GetClassFeatures(System.String, Int32) on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetClassFeatures (CharacterBuilder) in 0.2191ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetClassFeatures (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/class-features/Wizard/5 - 200 - application/json;+charset=utf-8 1.6938ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/ - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/index.html'. Physical path: '/Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/wwwroot/index.html'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/index.html - 200 340 text/html 2.9951ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/static/js/main.62db9ff6.js - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/static/css/main.6c596e2a.css - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/static/css/main.6c596e2a.css'. Physical path: '/Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/wwwroot/static/css/main.6c596e2a.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/static/css/main.6c596e2a.css - 200 6901 text/css 0.5037ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/static/js/main.62db9ff6.js'. Physical path: '/Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/wwwroot/static/js/main.62db9ff6.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/static/js/main.62db9ff6.js - 200 163474 text/javascript 3.8542ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/races - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/classes - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/alignments - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/backgrounds - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/spells - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetBackgrounds", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]] GetBackgrounds() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClasses", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.CharacterClass]] GetClasses() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetAlignments", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]] GetAlignments() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetSpells", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Spell]] GetSpells() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetRaces", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Race]] GetRaces() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Spell, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Race, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.CharacterClass, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetCharacters", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Character]] GetCharacters() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder) in 0.1487ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/backgrounds - 200 - application/json;+charset=utf-8 0.6146ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Character, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder) in 0.2681ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/alignments - 200 - application/json;+charset=utf-8 0.8700ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/weapons - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/armor - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetWeapons", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Weapon]] GetWeapons() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetArmor", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Armor]] GetArmor() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Weapon, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Armor, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder) in 2.1942ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character - 200 - application/json;+charset=utf-8 3.4320ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/favicon.ico - - -
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder) in 1.5251ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/weapons - 200 - application/json;+charset=utf-8 2.2804ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder) in 1.7397ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/armor - 200 - application/json;+charset=utf-8 2.5292ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/favicon.ico - 404 0 - 0.6192ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[16]
+      Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:8001/favicon.ico, Response status code: 404
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder) in 3.7768ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder) in 3.7286ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/spells - 200 - application/json;+charset=utf-8 4.2060ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/races - 200 - application/json;+charset=utf-8 4.8817ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder) in 3.8541ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/classes - 200 - application/json;+charset=utf-8 4.6303ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/class-features/Rogue/4 - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetClassFeatures (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClassFeatures", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]] GetClassFeatures(System.String, Int32) on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetClassFeatures (CharacterBuilder) in 0.3826ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetClassFeatures (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/class-features/Rogue/4 - 200 - application/json;+charset=utf-8 0.7882ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/class-features/Barbarian/6 - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetClassFeatures (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClassFeatures", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]] GetClassFeatures(System.String, Int32) on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetClassFeatures (CharacterBuilder) in 0.3666ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetClassFeatures (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/class-features/Barbarian/6 - 200 - application/json;+charset=utf-8 0.7650ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 PUT http://localhost:8001/api/character/b35fb501-1af5-4395-80d5-f408d659ac06 - application/json 1336
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.UpdateCharacter (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "UpdateCharacter", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult UpdateCharacter(System.String, CharacterBuilder.Models.Character) on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.StatusCodeResult[1]
+      Executing StatusCodeResult, setting HTTP status code 200
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.UpdateCharacter (CharacterBuilder) in 12.9752ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.UpdateCharacter (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 PUT http://localhost:8001/api/character/b35fb501-1af5-4395-80d5-f408d659ac06 - 200 0 - 16.1866ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/races - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetRaces", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Race]] GetRaces() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/classes - - -
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Race, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClasses", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.CharacterClass]] GetClasses() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/alignments - - -
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetCharacters", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Character]] GetCharacters() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.CharacterClass, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/backgrounds - - -
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder) in 0.8311ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Character, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/races - 200 - application/json;+charset=utf-8 1.7881ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/spells - - -
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetAlignments", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]] GetAlignments() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder) in 0.2315ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder) in 0.0853ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character - 200 - application/json;+charset=utf-8 2.0171ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder) in 0.6156ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/classes - 200 - application/json;+charset=utf-8 1.4449ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetBackgrounds", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]] GetBackgrounds() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder) in 1.5788ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/backgrounds - 200 - application/json;+charset=utf-8 3.3964ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/alignments - 200 - application/json;+charset=utf-8 3.5493ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/weapons - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/armor - - -
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetSpells", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Spell]] GetSpells() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetWeapons", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Weapon]] GetWeapons() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Spell, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Weapon, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetArmor", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Armor]] GetArmor() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Armor, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder) in 0.158ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder) in 0.1069ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/weapons - 200 - application/json;+charset=utf-8 0.2800ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder) in 0.2136ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/armor - 200 - application/json;+charset=utf-8 0.2206ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/spells - 200 - application/json;+charset=utf-8 3.7730ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/ - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /index.html was not modified
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/index.html - 304 - text/html 1.6905ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/races - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/backgrounds - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/classes - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/alignments - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetRaces", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Race]] GetRaces() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClasses", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.CharacterClass]] GetClasses() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetAlignments", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]] GetAlignments() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetCharacters", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Character]] GetCharacters() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetBackgrounds", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]] GetBackgrounds() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Character, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Race, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.CharacterClass, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder) in 0.2312ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder) in 0.2008ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder) in 0.3005ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/spells - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/alignments - 200 - application/json;+charset=utf-8 0.5205ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder) in 0.5248ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/backgrounds - 200 - application/json;+charset=utf-8 0.7253ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character - 200 - application/json;+charset=utf-8 0.7655ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/races - 200 - application/json;+charset=utf-8 0.8829ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetSpells", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Spell]] GetSpells() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder) in 0.6817ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/classes - 200 - application/json;+charset=utf-8 0.9901ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Spell, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder) in 0.123ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/spells - 200 - application/json;+charset=utf-8 0.3491ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/weapons - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/armor - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetWeapons", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Weapon]] GetWeapons() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetArmor", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Armor]] GetArmor() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Armor, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Weapon, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder) in 0.0873ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder) in 0.0987ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/armor - 200 - application/json;+charset=utf-8 0.2458ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/weapons - 200 - application/json;+charset=utf-8 0.3143ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 PUT http://localhost:8001/api/character/3fd7dbf7-f104-461f-9c8e-2e01d9727fa0 - application/json 1378
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.UpdateCharacter (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "UpdateCharacter", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult UpdateCharacter(System.String, CharacterBuilder.Models.Character) on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.StatusCodeResult[1]
+      Executing StatusCodeResult, setting HTTP status code 200
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.UpdateCharacter (CharacterBuilder) in 1.9368ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.UpdateCharacter (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 PUT http://localhost:8001/api/character/3fd7dbf7-f104-461f-9c8e-2e01d9727fa0 - 200 0 - 2.6985ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/races - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetCharacters", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Character]] GetCharacters() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Character, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/classes - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder) in 0.6803ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character - 200 - application/json;+charset=utf-8 3.4441ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClasses", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.CharacterClass]] GetClasses() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.CharacterClass, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/backgrounds - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetBackgrounds", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]] GetBackgrounds() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder) in 0.3697ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/backgrounds - 200 - application/json;+charset=utf-8 0.6270ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/alignments - - -
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder) in 1.3578ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/classes - 200 - application/json;+charset=utf-8 1.6049ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetAlignments", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]] GetAlignments() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/spells - - -
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetSpells", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Spell]] GetSpells() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder) in 0.1464ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/alignments - 200 - application/json;+charset=utf-8 1.0324ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Spell, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder) in 0.3695ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/spells - 200 - application/json;+charset=utf-8 0.4579ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetRaces", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Race]] GetRaces() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Race, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder) in 2.139ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/races - 200 - application/json;+charset=utf-8 6.9672ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/weapons - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetWeapons", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Weapon]] GetWeapons() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Weapon, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder) in 0.1237ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/weapons - 200 - application/json;+charset=utf-8 0.2675ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/armor - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetArmor", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Armor]] GetArmor() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Armor, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder) in 0.102ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/armor - 200 - application/json;+charset=utf-8 0.2659ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 PUT http://localhost:8001/api/character/3fd7dbf7-f104-461f-9c8e-2e01d9727fa0 - application/json 1634
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.UpdateCharacter (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "UpdateCharacter", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult UpdateCharacter(System.String, CharacterBuilder.Models.Character) on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.StatusCodeResult[1]
+      Executing StatusCodeResult, setting HTTP status code 200
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.UpdateCharacter (CharacterBuilder) in 7.4047ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.UpdateCharacter (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 PUT http://localhost:8001/api/character/3fd7dbf7-f104-461f-9c8e-2e01d9727fa0 - 200 0 - 7.9312ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/races - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetCharacters", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Character]] GetCharacters() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetRaces", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Race]] GetRaces() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/classes - - -
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Race, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClasses", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.CharacterClass]] GetClasses() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.CharacterClass, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder) in 0.769ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetRaces (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder) in 0.215ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/races - 200 - application/json;+charset=utf-8 3.5611ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetClasses (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/classes - 200 - application/json;+charset=utf-8 0.4287ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Character, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/backgrounds - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/spells - - -
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetBackgrounds", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]] GetBackgrounds() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetSpells", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Spell]] GetSpells() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Spell, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder) in 0.0715ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetBackgrounds (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/backgrounds - 200 - application/json;+charset=utf-8 0.2159ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/alignments - - -
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder) in 0.1077ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetSpells (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/spells - 200 - application/json;+charset=utf-8 0.2044ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetAlignments", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]] GetAlignments() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder) in 0.0363ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetAlignments (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/alignments - 200 - application/json;+charset=utf-8 0.1345ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder) in 3.8212ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetCharacters (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character - 200 - application/json;+charset=utf-8 6.9412ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/weapons - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:8001/api/character/armor - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetArmor", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Armor]] GetArmor() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetWeapons", controller = "Character"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CharacterBuilder.Models.Weapon]] GetWeapons() on controller CharacterBuilder.Controllers.CharacterController (CharacterBuilder).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Weapon, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CharacterBuilder.Models.Armor, CharacterBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder) in 0.107ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder) in 0.0834ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetArmor (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/armor - 200 - application/json;+charset=utf-8 0.2259ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'CharacterBuilder.Controllers.CharacterController.GetWeapons (CharacterBuilder)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:8001/api/character/weapons - 200 - application/json;+charset=utf-8 0.3447ms
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

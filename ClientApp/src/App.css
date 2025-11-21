@@ -53,24 +53,386 @@ button:hover {
   margin-top: 0;
 }
 
+.character-card button {
+  margin: 5px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
 .character-sheet {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
-.basic-info, .abilities, .spells, .equipment {
+.basic-info, .abilities, .spells, .equipment, .class-features, .saving-throws, .character-details {
   background: #f8f8f8;
   border: 2px solid #8B4513;
   border-radius: 10px;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
-.basic-info h2, .abilities h2, .spells h2, .equipment h2 {
+.basic-info h2, .abilities h2, .spells h2, .equipment h2, .class-features h2, .saving-throws h2, .character-details h2 {
   color: #8B4513;
   margin-top: 0;
   border-bottom: 1px solid #8B4513;
   padding-bottom: 10px;
+}
+
+.character-details {
+  grid-column: 1 / -1;
+}
+
+.backstory, .physical-description {
+  margin-bottom: 20px;
+}
+
+.backstory h3, .physical-description h3 {
+  color: #8B4513;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.equipment-dropdowns {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: end;
+}
+
+.combat-stats {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.health-section h3, .ac-section h3 {
+  color: #8B4513;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.health-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.health-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.health-bar-container label {
+  min-width: 80px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8B4513;
+}
+
+.health-bar {
+  position: relative;
+  width: 120px;
+  height: 20px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #8B4513;
+}
+
+.health-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.health-fill.current {
+  background: linear-gradient(to right, #ff4444 0%, #ffaa00 50%, #44ff44 100%);
+}
+
+.health-fill.max {
+  background: #44ff44;
+}
+
+.health-fill.temp {
+  background: #4444ff;
+}
+
+.health-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 11px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+
+.ac-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ac-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border: 2px solid #8B4513;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+}
+
+.ac-value {
+  font-size: 28px;
+  font-weight: bold;
+  color: #8B4513;
+  line-height: 1;
+}
+
+.ac-label {
+  font-size: 12px;
+  color: #8B4513;
+  font-weight: bold;
+}
+
+.spell-details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.selected-spell {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.selected-spell h4 {
+  margin: 0 0 10px 0;
+  color: #8B4513;
+  font-size: 16px;
+}
+
+.spell-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.spell-stats p {
+  margin: 2px 0;
+  font-size: 12px;
+  color: #666;
+}
+
+.spell-stats p strong {
+  color: #8B4513;
+}
+
+.equipment-details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.selected-equipment {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.selected-equipment h4 {
+  margin: 0 0 10px 0;
+  color: #8B4513;
+  font-size: 16px;
+}
+
+.equipment-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.equipment-stats p {
+  margin: 2px 0;
+  font-size: 12px;
+  color: #666;
+}
+
+.equipment-stats p strong {
+  color: #8B4513;
+}
+
+.spell-description {
+  font-size: 13px;
+  color: #333;
+  font-style: italic;
+  margin: 10px 0 0 0;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.health-input {
+  width: 50px;
+  padding: 4px;
+  border: 1px solid #8B4513;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.health-display {
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8B4513;
+  min-width: 50px;
+  text-align: center;
+}
+
+.class-abilities {
+  background: #f8f8f8;
+  border: 2px solid #8B4513;
+  border-radius: 10px;
+  padding: 20px;
+  grid-column: 1 / -1;
+}
+
+.class-abilities h2 {
+  color: #8B4513;
+  margin-top: 0;
+  border-bottom: 1px solid #8B4513;
+  padding-bottom: 10px;
+}
+
+.abilities-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.ability-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.ability-item h4 {
+  margin: 0 0 8px 0;
+  color: #8B4513;
+  font-size: 14px;
+}
+
+.ability-item p {
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.dropdown-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dropdown-group label {
+  font-weight: bold;
+  color: #8B4513;
+  font-size: 14px;
+}
+
+.dropdown-group select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  background: white;
+}
+
+.dropdown-group button {
+  margin: 0;
+  padding: 8px 15px;
+}
+
+.equipment-categories h3 {
+  color: #8B4513;
+  margin: 20px 0 10px 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.equipment-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.equipment-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.equipment-item h4 {
+  margin: 0 0 8px 0;
+  color: #8B4513;
+  font-size: 14px;
+}
+
+.equipment-item p {
+  margin: 3px 0;
+  font-size: 12px;
+  color: #666;
+}
+
+.equipment-item p strong {
+  color: #8B4513;
+}
+
+.equipment-item button {
+  margin-top: 8px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.form-section textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
 }
 
 .ability-grid {
@@ -125,6 +487,25 @@ button:hover {
   padding-bottom: 10px;
 }
 
+.name-input-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name-input-group input {
+  flex: 1;
+  margin: 0;
+}
+
+.name-input-group button {
+  margin: 0;
+  padding: 8px 15px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
 .form-section input, .form-section select {
   width: 100%;
   padding: 8px;
@@ -175,19 +556,30 @@ button:hover {
   background: white;
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
   margin: 5px 0;
 }
 
 .spell-item h4 {
-  margin: 0 0 5px 0;
+  margin: 0 0 10px 0;
   color: #8B4513;
 }
 
-.spell-item p {
-  margin: 0 0 10px 0;
+.spell-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.spell-details p {
+  margin: 2px 0;
   font-size: 12px;
   color: #666;
+}
+
+.spell-details p strong {
+  color: #8B4513;
 }
 
 ul {
