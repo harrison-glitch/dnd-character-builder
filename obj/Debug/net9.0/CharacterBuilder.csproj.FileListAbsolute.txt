@@ -28,8 +28,6 @@
 /Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/ref/CharacterBuilder.dll
 /Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/bin/Debug/net9.0/CharacterBuilder.staticwebassets.runtime.json
 /Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/bin/Debug/net9.0/ClientApp/build/asset-manifest.json
-/Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/umyis5xmhp-j9t9lvx5x4.gz
-/Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/bh9aeqy1r2-6dduiazh6m.gz
 /Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/injxrffmge-uotln8mkui.gz
 /Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/at158ltxw2-a36lf1t8cq.gz
 /Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/ckq970zi25-6at8b5v7gm.gz
@@ -38,3 +36,10 @@
 /Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/5367tx1n78-1pxfuuqhqx.gz
 /Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/ucdoefnzuu-ky62on6fd0.gz
 /Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/9o8bkb0u17-q0p2kkgaf8.gz
+/Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/ruv1kkaby0-i9hi9h5a98.gz
+/Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/eia8nbi2rv-ky62on6fd0.gz
+/Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/3by5lnhl5x-aapevi0e8j.gz
+/Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/umyis5xmhp-bh4oeoxuqg.gz
+/Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/bh9aeqy1r2-pfb2n6at6r.gz
+/Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/kwuyy0ewkd-xced92ck7c.gz
+/Users/harrisonsmith/AQALL/DND ECOSYSTEM/character-builder/obj/Debug/net9.0/compressed/juz6zwkqk4-tkh1ae91qh.gz

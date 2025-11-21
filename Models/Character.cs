@@ -95,8 +95,12 @@ public class ClassFeature
 {
     public string Name { get; set; } = "";
     public string Description { get; set; } = "";
-    public int Level { get; set; }
-    public string Class { get; set; } = "";
+    
+    public ClassFeature(string name, string description)
+    {
+        Name = name;
+        Description = description;
+    }
 }
 
 public class Spell

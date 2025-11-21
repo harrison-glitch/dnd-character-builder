@@ -85,6 +85,44 @@ public class CharacterController : ControllerBase
         new Spell { Name = "Dominate Person", Level = 5, School = "Enchantment", CastingTime = "1 action", Range = "60 feet", Duration = "Concentration, up to 1 minute", Description = "Control a humanoid's actions", Damage = "None", SpellSlot = "5th level", Components = "V, S" }
     };
 
+    private static readonly Dictionary<string, string> _featureDescriptions = new()
+    {
+        // Fighter Features
+        { "Fighting Style", "Choose a fighting style: Archery, Defense, Dueling, Great Weapon Fighting, Protection, or Two-Weapon Fighting." },
+        { "Second Wind", "Regain 1d10 + fighter level hit points as a bonus action once per short rest." },
+        { "Action Surge", "Take one additional action on your turn once per short rest." },
+        { "Martial Archetype", "Choose your archetype: Champion, Battle Master, or Eldritch Knight." },
+        { "Ability Score Improvement", "Increase one ability score by 2, or two ability scores by 1 each." },
+        { "Extra Attack", "Attack twice when you take the Attack action." },
+        { "Indomitable", "Reroll a failed saving throw once per long rest." },
+        
+        // Wizard Features
+        { "Spellcasting", "Cast spells using Intelligence as your spellcasting ability." },
+        { "Arcane Recovery", "Recover some expended spell slots during a short rest." },
+        { "Arcane Tradition", "Choose your school of magic specialization." },
+        { "Cantrip Formulas", "Replace one cantrip you know with another cantrip from the wizard spell list." },
+        { "Spell Mastery", "Choose a 1st-level and 2nd-level spell to cast at will." },
+        { "Signature Spells", "Choose two 3rd-level spells as signature spells." },
+        
+        // Rogue Features
+        { "Expertise", "Double your proficiency bonus for two skills of your choice." },
+        { "Sneak Attack", "Deal extra damage when you have advantage or an ally is nearby." },
+        { "Thieves' Cant", "Secret language known by rogues and criminals." },
+        { "Cunning Action", "Use Dash, Disengage, or Hide as a bonus action." },
+        { "Uncanny Dodge", "Halve damage from one attack per turn using your reaction." },
+        { "Evasion", "Take no damage on successful Dex saves, half damage on failures." },
+        { "Reliable Talent", "Treat d20 rolls of 9 or lower as 10 for ability checks you're proficient in." },
+        
+        // Common Features
+        { "3rd Level Spells", "Gain access to 3rd-level spells." },
+        { "4th Level Spells", "Gain access to 4th-level spells." },
+        { "5th Level Spells", "Gain access to 5th-level spells." },
+        { "6th Level Spells", "Gain access to 6th-level spells." },
+        { "7th Level Spells", "Gain access to 7th-level spells." },
+        { "8th Level Spells", "Gain access to 8th-level spells." },
+        { "9th Level Spells", "Gain access to 9th-level spells." }
+    };
+
     private static readonly List<CharacterClass> _classes = new()
     {
         new CharacterClass { 
@@ -582,6 +620,12 @@ public class CharacterController : ControllerBase
         }
 
         return Ok(features);
+    }
+
+    [HttpGet("feature-descriptions")]
+    public ActionResult<Dictionary<string, string>> GetAllFeatureDescriptions()
+    {
+        return Ok(_featureDescriptions);
     }
 
     private static void CalculateCharacterStats(Character character)
